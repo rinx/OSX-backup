@@ -1,3 +1,19 @@
+#/bin/sh
+
+brew tap caskroom/cask
+brew tap caskroom/fonts
+brew tap homebrew/core
+brew tap homebrew/dupes
+brew tap homebrew/fuse
+brew tap homebrew/science
+brew tap homebrew/services
+brew tap homebrew/versions
+brew tap homebrew/x11
+brew tap neovim/neovim
+brew tap osx-cross/avr
+brew tap splhack/splhack
+brew tap universal-ctags/universal-ctags
+
 brew install apple-gcc42
 brew install atk
 brew install autoconf
@@ -19,7 +35,7 @@ brew install cloog018
 brew install clozure-cl
 brew install cmake
 brew install cmigemo
-brew install cmigemo-mk
+brew install --HEAD cmigemo-mk
 brew install coreutils
 brew install ctags-objc-ja
 brew install dfu-programmer
@@ -108,7 +124,7 @@ brew install llvm
 brew install lua
 brew install lua@5.1
 brew install luajit
-brew install macvim-kaoriya
+brew install --HEAD --with-properly-linked-python2-python3 macvim-kaoriya
 brew install maxima
 brew install mercurial
 brew install metis
@@ -165,7 +181,7 @@ brew install texinfo
 brew install tig
 brew install tmux
 brew install unibilium
-brew install universal-ctags
+brew install --HEAD universal-ctags
 brew install veclibfort
 brew install vte
 brew install w3m
