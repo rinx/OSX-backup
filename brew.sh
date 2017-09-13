@@ -135,7 +135,7 @@ brew install mplayer
 brew install msgpack
 brew install msmtp
 brew install ncurses
-brew install neovim
+brew install neovim --HEAD
 brew install nkf
 brew install node
 brew install octave
